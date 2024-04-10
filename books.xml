@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book category="fantasy">
+    <title>The Lord of the Rings</title>
+    <author>J.R.R. Tolkien</author>
+    <year>1954</year>
+    <price>29.99</price>
+  </book>
+  <book category="science fiction">
+    <title>Dune</title>
+    <author>Frank Herbert</author>
+    <year>1965</year>
+    <price>19.95</price>
+  </book>
+  <book category="mystery">
+    <title>And Then There Were None</title>
+    <author>Agatha Christie</author>
+    <year>1939</year>
+    <price>14.99</price>
+  </book>
+</bookstore>
