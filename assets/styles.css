@@ -1,0 +1,31 @@
+/* CSS for the grid layout */
+body {
+    background-color: rgb(41, 39, 39);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #dd4710;
+    text-transform: uppercase;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+}
+
+.grid-item {
+    border: 1px solid #dd4710;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px;
+    background-color: rgb(24, 24, 24);
+}
